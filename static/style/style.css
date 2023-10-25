@@ -2,12 +2,14 @@
     --main-color: #D61846;
     --black: #000000;
     --white: #ffffff;
-    --gradient: linear-gradient(155deg, rgba(255,38,90,1) 0%, rgba(144,12,44,1) 100%);
+    --gradient: linear-gradient(142deg, rgba(235,38,38,1) 0%, rgba(199,18,98,1) 100%);
   }
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,800;1,300&display=swap');
 
 body{
     font-size: 0.8125rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: normal;
     scroll-behavior: smooth;
     transition: all 0.5s;
@@ -40,7 +42,7 @@ h3 {
 h4 {
     font-size: 1.6875rem;
     margin: 0;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 /* 24px */
